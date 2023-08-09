@@ -1,0 +1,459 @@
+html body{
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.collapse .navbar-nav{
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+}
+
+/* #navbarNavDropdown1{
+    margin-left: 10px;
+} */
+  
+  /* .navbar-brand img{
+    margin: 10px 10px 10px 10px;
+ } */
+ 
+  /* #carousel-item1{
+    width: 400px;
+    text-align: left;
+    margin-bottom: 140px;
+    margin-right: 650px;
+}
+
+#carousel-item1 button{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background-color: #0067b8;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+}
+
+#carousel-item1 a{
+    
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#carousel-item1 p{
+   
+    font-size: 18px;
+    color: black;
+}
+
+#carousel-item2{
+    width: 400px;
+    text-align: left;
+    margin-bottom: 180px;
+    margin-left: 580px;
+}
+
+#carousel-item2 button{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background-color: #0067b8;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+}
+
+#carousel-item2 p{
+    font-size: 18px;
+    color: black;
+}  */
+
+ .carousel-item{
+    position: relative;
+}
+
+.carousel-caption{
+    position: absolute;
+    top: 27%;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    /* left: 15%!important; */
+}
+
+.carousel-caption h2{
+    text-align: left;
+    color: black;
+}
+
+.carousel-caption p{
+    text-align: left;
+    color: black;
+}
+
+.carousel-caption button{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background-color: #0067b8;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+}
+
+.carousel-caption a{
+    text-align: left;
+    color: black;
+     margin-left: -280px;  
+     margin-top: 15px;  
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-caption-1{
+    position: absolute;
+    top: 30%;
+    right: 10%!important; 
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+}
+
+.carousel-caption-1 h2{
+    text-align: left;
+    color: black;
+}
+
+.carousel-caption-1 p{
+    text-align: left;
+    color: black;
+}
+
+.carousel-caption-1 button{
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background-color: #0067b8;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    position: absolute;
+    /* left: 0; */
+} 
+
+ main{
+    margin: 40px 0;
+} 
+
+.card{
+    margin-top: 50px;
+    border-style: none;
+}
+
+.card .card-body a{
+    text-decoration: none;
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+}
+
+.card .card-body p{
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #000;
+}
+
+.card .card-body h5{
+    font-size: 1.8125rem;
+    margin-bottom: 1rem;
+}
+
+
+.card .card-body .card-title{
+    text-align: left;
+    font-size: 1.3125rem;
+    margin-bottom: 0.5rem;
+}
+
+.container1{
+   margin-bottom: 20px;
+   margin-top: 20px;
+}
+
+ #msstyle{
+    /* width: 100%;    */
+    height: 400px;
+    background: url(./image/Highlight-Hero-Windows11-GlobalLaunch_VP4-1260x600.jpeg) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+     margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+   
+} 
+
+.mstore .btn{
+     /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 70px;  */
+    height: 40px;
+    width: 120px;
+    text-align: center;
+    background-color: #0067b8;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    position: absolute;
+    /* left: 0; */
+     margin-left:90px; 
+}
+
+h1{
+    margin-top: 40px;
+}
+
+.mstore h3{
+     margin-left: 90px; 
+     color: white;
+    /* margin-bottom: -30px; */
+}
+
+.mstore p{
+    margin-left: 90px;
+    color: white;
+}
+
+ .soft{
+    margin: 50px 50px;
+}  
+
+   .soft .row #jp {
+   width: 200px;
+}  
+
+.soft .row #jp a i{
+    justify-content: space-between;
+}
+
+footer{
+    background-color: #f2f2f2;
+     padding: 40px 0; 
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: #616161;
+    word-break: break-all;
+    text-align: left;
+    font-size: 9px;
+    line-height: 16px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+
+footer p{
+    margin-left: 30px;  
+    font-size: 20px;
+    font-family: 'Segoe UI',SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* .container{
+    margin-left: 60px;
+} */
+
+#action{
+    /* display: flex;
+     justify-content: space-evenly; 
+     
+    margin-top: 50px;
+    padding: 20px 20px 20px 20vh; */
+
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0.75rem;
+    padding-left: 0.75rem;
+    margin-top: 40px;
+    padding-left: 20px;
+    
+}
+
+#action .cat{
+    margin-top: 30px;
+}
+
+#action .cat img center{
+     margin-left: 30px;
+}
+
+#action div h5 a{
+    color: #0067b8;
+     font-weight: 600!important; 
+    font-family: "Segoe UI",SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+}
+
+ @media screen and (max-width: 940px) {
+        .mstore h3{
+            color: #000;
+        }
+        .mstore p{
+            color: #000;
+        }
+        #action div h5 a{
+            text-align: center;
+        }
+ } 
+
+ @media screen and (min-width: 0) and (max-width: 400px){
+    #action div #xy a{
+         padding-left: 40px; 
+    }
+
+    #action div #mn a{
+        padding-left: 53px; 
+     }
+
+   #action div #gh a{
+    padding-left: 71px; 
+    }
+
+   #action div #vd a{
+    padding-left: 67px; 
+    }
+  
+    #action .cat #ab{
+        padding-left: 112px;
+    }
+
+    #action .cat #cd{
+        padding-left: 109px;
+    }
+
+    #action .cat #ef{
+        padding-left: 105px;
+    }
+
+    #action .cat #jk{
+        padding-left: 105px;
+    }
+
+    #msstyle{
+        margin: 5px 5px;
+    }
+
+    .mstore p{
+        margin-left: 18px;
+    }
+
+    .mstore h3{
+        margin-left: 18px;
+    }
+
+    .mstore .btn{
+        margin-left: 18px;
+    }
+
+    .card{
+        margin-top: 20px;
+    }
+
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        padding-left: 1px;
+    }
+
+    .carousel-caption #carousel-item1{
+        margin-top: 200px;
+        text-align: left;
+    }
+ }
+
+ @media screen and (min-width: 400px) and (max-width: 900px){
+    #action .cat img{
+        padding-left: 129px;
+    }
+    
+    #action div #xy a{
+        padding-left: 59px; 
+      }
+
+    #action div #mn a{
+       padding-left: 68px; 
+      }
+
+    #action div #gh a{
+      padding-left: 92px; 
+     }
+
+    #action div #vd a{
+      padding-left: 94px; 
+     }
+
+     .card {
+        margin-top: 25px;
+     }
+
+     .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        padding-left: 8px;
+    }
+ }
+
+ @media screen and (min-width: 900px) and (max-width: 1450px){
+    #action div #xy a{
+        padding-left: 23px; 
+      }
+
+    #action div #mn a{
+       padding-left: 43px; 
+      }
+
+    #action div #gh a{
+      padding-left: 64px; 
+     }
+
+    #action div #vd a{
+      padding-left: 67px; 
+     }
+
+     #action .cat img{
+        padding-left: 97px;
+    }
+
+    .card{
+        margin-top: 40px;
+    }
+
+    #action .cat{
+        margin-top: 25px;
+    }
+
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        padding-left: 5px;
+    }
+ }
